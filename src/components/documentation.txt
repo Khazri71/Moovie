@@ -1,0 +1,13 @@
+--NOTES--
+
+
+
+
+--ROADMAP--
+1-Create Template UI:
+  *** Create Header
+  *** Create Home
+  *** Create To Watch
+  *** Create Search And Add
+2-Fetch API Using Axios Library In Page Searchand Add
+
