@@ -7,7 +7,7 @@ const Home = () => {
 
   useEffect(() => {
     axios
-      .get("http://www.omdbapi.com/?s=kim&apikey=aa26db92")
+      .get("https://www.omdbapi.com/?s=kim&apikey=aa26db92")
       .then((response) => setMoviesHome(response.data.Search))
       .catch((err) => console.log(err.message));
   }, [moviesHome]);
