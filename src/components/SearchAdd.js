@@ -9,7 +9,7 @@ const SearchAdd = () => {
   const [searchMovie, setSearchMovie] = useState([]);
   useEffect(() => {
     axios
-      .get(`http://www.omdbapi.com/?s=${searchValue}&apikey=aa26db92`)
+      .get(`https://www.omdbapi.com/?s=${searchValue}&apikey=aa26db92`)
       .then((response) => response.data.Search)
       .then((data) => {
         console.log(data);
